@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin: 1.24rem 1rem 4rem 1.5rem;
+}
+
+.header__title {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.08em;
+  line-height: 1.562rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__img {
+  height: 14.875rem;
+  margin: auto;
+}
+
+.section__title {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: -0.035em;
+  line-height: 4.437rem;
+  margin: 3.75rem 0.062rem 1.875rem 1.5rem;
+}
+
+.section__p {
+  
+}
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
