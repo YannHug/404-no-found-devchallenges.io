@@ -10,7 +10,9 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
 
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -20,31 +22,35 @@
 </head>
 
 <body>
-  
-  <header>
-    <h1>
-      404 not found
-    </h1>
-  </header>
 
-  <section>
-    <img src="Scarecrow.png" alt="scarecrow 404">
-    <h2>
-      I have bad news for you
-    </h2>
-    <p>
-      The page you are looking for might be removed or is temporarily unavailable
-    </p>
-    <button>
-      Back to homepage
-    </button>
-  </section>
+  <container class="wrapper">
 
-  <footer>
-    <a href="https://devchallenges.io/profile/kvWNfDM1j6jhVDAAx2lq" target="blanck">
-      Yannick HUGUES @ DevChallenges.io
-    </a>
-  </footer>
+    <header class="header">
+      <h1 class="header__title">
+        404 not found
+      </h1>
+    </header>
+
+    <section class="section">
+      <img class="section__img" src="Scarecrow.png" alt="scarecrow 404">
+      <h2 class="section__title">
+        I have bad news for you
+      </h2>
+      <p class="section__p">
+        The page you are looking for might be removed or is temporarily unavailable
+      </p>
+      <button>
+        Back to homepage
+      </button>
+    </section>
+
+    <footer>
+      <a href="https://devchallenges.io/profile/kvWNfDM1j6jhVDAAx2lq" target="blanck">
+        Yannick HUGUES @ DevChallenges.io
+      </a>
+    </footer>
+
+  </container>
 
 </body>
 
